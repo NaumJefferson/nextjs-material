@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+// import { GetStaticProps, GetStaticPaths, GetServerSideProps } from 'next'
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -67,3 +69,17 @@ export default function Home() {
     </div>
   )
 }
+
+
+
+// export const getStaticProps: GetStaticProps = async context => {
+//   // ...
+// }
+
+// export const getStaticPaths: GetStaticPaths = async () => {
+//   // ...
+// }
+
+// export const getServerSideProps: GetServerSideProps = async context => {
+//   // ...
+// }
